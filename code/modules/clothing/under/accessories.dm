@@ -558,23 +558,3 @@
 	obj_flags = UNIQUE_RENAME
 	custom_materials = list(/datum/material/iron=100)
 	resistance_flags = FIRE_PROOF
-
-
-/obj/item/clothing/accessory/pride
-	name = "pride pin"
-	desc = "A Nanotrasen Diversity & Inclusion Center-sponsored holographic pin to show off your pride of sexuality or gender identity, reminding the crew of their unwavering commitment to equity, diversity, and inclusion!"
-	icon_state = "pride"
-	above_suit = TRUE
-	obj_flags = UNIQUE_RENAME
-	unique_reskin = list(
-		"Rainbow Pride"     = list("icon_state" = "pride"),
-		"Bisexual Pride"    = list("icon_state" = "pride_bi"),
-		"Pansexual Pride"   = list("icon_state" = "pride_pan"),
-		"Asexual Pride"     = list("icon_state" = "pride_ace"),
-		"Non-binary Pride"  = list("icon_state" = "pride_enby"),
-		"Transgender Pride" = list("icon_state" = "pride_trans")
-	)
-
-/obj/item/clothing/accessory/pride/reskin_obj(mob/M)
-	. = ..()
-	name = "[current_skin] pin"
