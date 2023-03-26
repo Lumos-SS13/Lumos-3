@@ -95,6 +95,8 @@
 	name = "Brassy"
 	id = "coggers"
 	soundpath = 'sound/machines/clockcult/integration_cog_install.ogg' //Yet another unexpectedly good bark sound
+
+
 // Genetics-only/admin-only sounds. These either clash hard with the audio design of the above sounds, or have some other form of audio design issue, but aren't *too* awful as a sometimes thing.
 // Rule of fun very much applies to this section. Audio design is extremely important for the above section, but down here? No gods, no masters, pure anarchy.
 // The min/max variables simply don't apply to these, as only chargen cares about them. As such, there's no need to define those.
