@@ -1,7 +1,4 @@
 //Datums for barks and bark accessories
-
-/datum/bark
-
 /datum/bark/banjoahuh
 	name = "Ahuh"
 	id = "banjokazooie"
