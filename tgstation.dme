@@ -3900,4 +3900,5 @@
 #include "modular_citadel\code\modules\vectorcrafts\vectorcraft.dm"
 #include "modular_citadel\code\modules\vectorcrafts\vectortruck.dm"
 #include "modular_citadel\code\modules\vectorcrafts\vectorvariants.dm"
+#include "modular_lumos\code\datums\bark.dm"
 // END_INCLUDE
