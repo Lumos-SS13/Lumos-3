@@ -53,19 +53,29 @@
 	desc = "A satchel that opens into a localized pocket of Blue Space."
 	icon_state = "holdingsat"
 	item_state = "holdingsat"
+	slowdown = -0.3 // Lumos change
 
 /obj/item/storage/backpack/holding/duffel
 	name = "duffel bag of holding"
 	desc = "A duffel bag that opens into a localized pocket of Blue Space."
 	icon_state = "holdingduffel"
 	item_state = "holdingduffel"
+	slowdown = 0.5 // Lumos change
 
 /obj/item/storage/backpack/holding/ComponentInitialize()
 	. = ..()
 	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	STR.allow_big_nesting = TRUE // Lumos change
 	STR.max_w_class = MAX_WEIGHT_CLASS_BAG_OF_HOLDING
 	STR.storage_flags = STORAGE_FLAGS_VOLUME_DEFAULT
 	STR.max_volume = STORAGE_VOLUME_BAG_OF_HOLDING
+
+/obj/item/storage/backpack/holding/duffel/ComponentInitialize() // Lumos change
+	. = ..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	STR.max_w_class = MAX_WEIGHT_CLASS_DUFFLEBAG_OF_HOLDING
+	STR.storage_flags = STORAGE_FLAGS_VOLUME_DEFAULT
+	STR.max_volume = STORAGE_VOLUME_DUFFLEBAG_OF_HOLDING
 
 /obj/item/storage/backpack/holding/suicide_act(mob/living/user)
 	user.visible_message("<span class='suicide'>[user] is jumping into [src]! It looks like [user.p_theyre()] trying to commit suicide.</span>")
