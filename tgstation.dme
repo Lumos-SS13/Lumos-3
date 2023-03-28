@@ -3901,4 +3901,6 @@
 #include "modular_citadel\code\modules\vectorcrafts\vectortruck.dm"
 #include "modular_citadel\code\modules\vectorcrafts\vectorvariants.dm"
 #include "modular_lumos\code\datums\bark.dm"
+#include "modular_lumos\code\modules\tgs\chatcommands.dm"
+#include "modular_lumos\code\modules\tgs\custom_procs.dm"
 // END_INCLUDE
