@@ -1,6 +1,6 @@
 {
     "map_name": "Fuck Station",
-    "map_path": "map_files/FuckStation",
+    "map_path": "map_files/Fuckstation",
     "map_file": "fuckstation.dmm",
     "shuttles": {
 	    "cargo": "cargo_box",
