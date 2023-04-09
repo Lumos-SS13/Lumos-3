@@ -11,7 +11,7 @@
 					/obj/item/clothing/head/beret/black = 3,
 					/obj/item/clothing/head/beret/purple = 3,
 					/obj/item/clothing/head/beret/blue = 3,
-					/obj/item/clothing/accessory/pride = 25,
+					//obj/item/clothing/accessory/pride = 25, Lumos Change
 					/obj/item/clothing/glasses/monocle = 3,
 					/obj/item/clothing/suit/jacket = 4,
 					/obj/item/clothing/suit/jacket/flannel = 4,
