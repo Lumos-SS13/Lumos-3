@@ -3905,4 +3905,5 @@
 #include "modular_lumos\code\modules\custom_loadout\custom_items.dm"
 #include "modular_lumos\code\modules\tgs\chat_commands.dm"
 #include "modular_lumos\code\modules\tgs\custom_procs.dm"
+#include "modular_lumos\code\modules\mob\living\simple_animal\friendly\doges.dm"
 // END_INCLUDE
