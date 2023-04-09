@@ -168,7 +168,7 @@
 		"ears"				= "None",
 		"frills"			= pick(GLOB.frills_list),
 		"spines"			= pick(GLOB.spines_list),
-		"legs"				= intendedspecies == SPECIES_HUMAN ? "Plantigrade" : pick("Plantigrade","Digitigrade","Avian"), // Lumos Change
+		"legs"				= intendedspecies == SPECIES_HUMAN ? "Plantigrade" : pick("Plantigrade","Digitigrade"), // Lumos Change
 		"caps"				= pick(GLOB.caps_list),
 		"insect_wings"		= pick(GLOB.insect_wings_list),
 		"insect_fluff"		= "None",
