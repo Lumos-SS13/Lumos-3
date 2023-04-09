@@ -559,6 +559,7 @@
 	custom_materials = list(/datum/material/iron=100)
 	resistance_flags = FIRE_PROOF
 
+/*Lumos change
 
 /obj/item/clothing/accessory/pride
 	name = "pride pin"
@@ -578,3 +579,5 @@
 /obj/item/clothing/accessory/pride/reskin_obj(mob/M)
 	. = ..()
 	name = "[current_skin] pin"
+
+*/
