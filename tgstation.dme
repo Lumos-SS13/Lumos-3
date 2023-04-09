@@ -3907,3 +3907,4 @@
 #include "modular_lumos\code\modules\tgs\custom_procs.dm"
 #include "modular_lumos\code\game\machinery\recycler.dm"
 #include "modular_lumos\code\modules\mob\living\simple_animal\friendly\doges.dm"
+// END_INCLUDE
