@@ -26,6 +26,13 @@ SUBSYSTEM_DEF(research)
 	var/list/techweb_nodes_hidden = list()		//Node ids that should be hidden by default.
 	var/list/techweb_nodes_experimental = list()	//Node ids that are exclusive to the BEPIS.
 
+	//LUMOS CHANGE
+	//PROBLEM COMPUTER CHARGES
+	var/problem_computer_max_charges = 5
+	var/problem_computer_charges = 5
+	var/problem_computer_charge_time = 90 SECONDS
+	var/problem_computer_next_charge_time = 0
+
 	var/list/techweb_point_items = list(		//path = list(point type = value)
 	/obj/item/assembly/signaler/anomaly            = list(TECHWEB_POINT_TYPE_GENERIC = 10000),
 	//   -   Slime Extracts!   - Basics
@@ -354,6 +361,10 @@ SUBSYSTEM_DEF(research)
 	else
 		science_tech.last_bitcoins = bitcoins.Copy()
 	last_income = world.time
+	//LUMOS CHANGE - Handles Problem Computer charges here
+	if(problem_computer_charges < problem_computer_max_charges && world.time >= problem_computer_next_charge_time)
+		problem_computer_next_charge_time = world.time + problem_computer_charge_time
+		problem_computer_charges += 1
 
 /datum/controller/subsystem/research/proc/calculate_server_coefficient()	//Diminishing returns.
 	var/amt = servers.len
