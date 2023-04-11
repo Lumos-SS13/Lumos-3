@@ -3906,4 +3906,9 @@
 #include "modular_lumos\code\modules\tgs\chat_commands.dm"
 #include "modular_lumos\code\modules\tgs\custom_procs.dm"
 #include "modular_lumos\code\game\machinery\recycler.dm"
+#include "modular_lumos\code\game\objects\structures\crates_lockers\closets\secure\cargo.dm"
+#include "modular_lumos\code\game\objects\structures\crates_lockers\closets\secure\engineering.dm"
+#include "modular_lumos\code\game\objects\structures\crates_lockers\closets\secure\medical.dm"
+#include "modular_lumos\code\game\objects\structures\crates_lockers\closets\secure\scientist.dm"
+#include "modular_lumos\code\game\objects\structures\crates_lockers\closets\secure\security.dm"
 // END_INCLUDE
