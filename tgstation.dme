@@ -3907,4 +3907,8 @@
 #include "modular_lumos\code\modules\tgs\custom_procs.dm"
 #include "modular_lumos\code\game\machinery\recycler.dm"
 #include "modular_lumos\code\modules\mob\living\simple_animal\friendly\doges.dm"
+#include "modular_lumos\code\game\objects\items\computermath.dm"
+#include "modular_lumos\code\modules\research\designs\tool_designs.dm"
+#include "modular_lumos\code\modules\research\techweb\nodes\bluespace_nodes.dm"
+#include "modular_lumos\code\datums\mood_events\generic_negative_events.dm"
 // END_INCLUDE
