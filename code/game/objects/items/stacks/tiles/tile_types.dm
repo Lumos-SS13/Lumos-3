@@ -476,6 +476,9 @@
 	icon_state = "tile_bcircuit"
 	turf_type = /turf/open/floor/circuit
 
+/obj/item/stack/tile/circuit/anim	//LUMOS CHANGE
+	turf_type = /turf/open/floor/circuit/anim
+
 /obj/item/stack/tile/circuit/green
 	name = "green circuit tile"
 	singular_name = "green circuit tile"
