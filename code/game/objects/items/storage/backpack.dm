@@ -53,7 +53,6 @@
 	desc = "A satchel that opens into a localized pocket of Blue Space."
 	icon_state = "holdingsat"
 	item_state = "holdingsat"
-	slowdown = -0.3 // Lumos change
 
 /obj/item/storage/backpack/holding/duffel
 	name = "duffel bag of holding"
