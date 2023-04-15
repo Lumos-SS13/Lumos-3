@@ -4,6 +4,7 @@
 	//- floor_tile is now a path, and not a tile obj
 	name = "floor"
 	icon = 'icons/turf/floors.dmi'
+	base_icon_state = "floor"	//LUMOS CHANGE - Tile reskining
 	baseturfs = /turf/open/floor/plating
 	dirt_buildup_allowed = TRUE
 
