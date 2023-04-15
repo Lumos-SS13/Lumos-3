@@ -44,6 +44,11 @@
 	icon_state = "bcircuitoff"
 	on = FALSE
 
+/turf/open/floor/circuit/anim	//LUMOS CHANGE
+	icon_state = "bcircuitanim"
+	icon_normal = "bcircuitanim"
+	floor_tile = /obj/item/stack/tile/circuit/anim
+
 /turf/open/floor/circuit/airless
 	initial_gas_mix = AIRLESS_ATMOS
 
