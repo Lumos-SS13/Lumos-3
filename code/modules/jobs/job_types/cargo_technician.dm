@@ -21,9 +21,12 @@
 	display_order = JOB_DISPLAY_ORDER_CARGO_TECHNICIAN
 	bounty_types = CIV_JOB_RANDOM
 	threat = 0.2
-	
-	family_heirlooms = list(
-		/obj/item/clipboard
+
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
+		/obj/item/clipboard,
+		/obj/item/clothing/ears/headphones,
+		/obj/item/export_scanner,
+		/obj/item/price_tagger
 	)
 
 /datum/outfit/job/cargo_tech

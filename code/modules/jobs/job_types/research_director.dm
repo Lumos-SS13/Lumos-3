@@ -38,9 +38,12 @@
 	starting_modifiers = list(/datum/skill_modifier/job/level/wiring)
 	blacklisted_quirks = list(/datum/quirk/mute, /datum/quirk/brainproblems, /datum/quirk/insanity)
 	threat = 5
-	
-	family_heirlooms = list(
-		/obj/item/toy/plush/slimeplushie
+
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
+		//obj/item/toy/plush/slimeplushie,
+		/obj/item/laser_pointer,
+		/obj/item/modular_computer/tablet,
+		/obj/item/clothing/mask/facehugger/toy
 	)
 
 /datum/outfit/job/rd

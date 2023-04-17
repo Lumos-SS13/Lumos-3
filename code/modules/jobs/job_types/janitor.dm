@@ -19,12 +19,14 @@
 
 	display_order = JOB_DISPLAY_ORDER_JANITOR
 	threat = 0.2
-	
-	family_heirlooms = list(
+
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
 		/obj/item/mop,
 		/obj/item/clothing/suit/caution,
-		/obj/item/reagent_containers/glass/bucket,
-		/obj/item/soap
+		//obj/item/reagent_containers/glass/bucket,
+		/obj/item/soap,
+		/obj/item/reagent_containers/spray/cleaner,
+		/obj/item/assembly/mousetrap			//I hate Stuart Little
 	)
 
 /datum/outfit/job/janitor

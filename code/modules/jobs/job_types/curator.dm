@@ -19,10 +19,13 @@
 
 	display_order = JOB_DISPLAY_ORDER_CURATOR
 	threat = 0.3
-	
-	family_heirlooms = list(
+
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
 		/obj/item/pen/fountain,
-		/obj/item/storage/dice
+		/obj/item/storage/dice,
+		/obj/item/clothing/mask/cigarette/pipe,
+		/obj/item/camera,
+		/obj/item/toy/figure/curator
 	)
 
 /datum/outfit/job/curator

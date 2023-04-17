@@ -22,9 +22,13 @@
 	starting_modifiers = list(/datum/skill_modifier/job/level/wiring/basic)
 	display_order = JOB_DISPLAY_ORDER_SCIENTIST
 	threat = 1.2
-	
-	family_heirlooms = list(
-		/obj/item/toy/plush/slimeplushie
+
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
+		/obj/item/toy/plush/slimeplushie,
+		/obj/item/clothing/glasses/science,
+		/obj/item/crowbar/red,
+		/obj/item/assembly/signaler,
+		/obj/item/clothing/accessory/pocketprotector/full
 	)
 
 /datum/outfit/job/scientist

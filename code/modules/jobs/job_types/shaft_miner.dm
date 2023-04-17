@@ -24,10 +24,13 @@
 	display_order = JOB_DISPLAY_ORDER_SHAFT_MINER
 
 	threat = 1.5
-	
-	family_heirlooms = list(
+
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
 		/obj/item/pickaxe/mini,
-		/obj/item/shovel
+		//obj/item/shovel,
+		/obj/item/kitchen/knife/combat/survival,
+		/obj/item/storage/bag/ore,
+		/obj/item/clothing/glasses/meson
 	)
 
 /datum/outfit/job/miner

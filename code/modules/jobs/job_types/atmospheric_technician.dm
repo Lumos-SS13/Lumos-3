@@ -26,11 +26,14 @@
 
 	display_order = JOB_DISPLAY_ORDER_ATMOSPHERIC_TECHNICIAN
 	threat = 0.5
-	
-	family_heirlooms = list(
-		/obj/item/lighter,
-		/obj/item/lighter/greyscale,
-		/obj/item/storage/box/matches
+
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
+		//obj/item/lighter,
+		//obj/item/lighter/greyscale,
+		//obj/item/storage/box/matches
+		/obj/item/extinguisher/mini/,
+		/obj/item/lighter/slime,
+		/obj/item/analyzer
 	)
 
 /datum/outfit/job/atmos

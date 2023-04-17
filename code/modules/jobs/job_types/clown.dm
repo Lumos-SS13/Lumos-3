@@ -21,9 +21,11 @@
 
 	display_order = JOB_DISPLAY_ORDER_CLOWN
 	threat = 0 // honk
-	
-	family_heirlooms = list(
-		/obj/item/bikehorn/golden
+
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
+		/obj/item/bikehorn/golden,
+		/obj/item/soap/,
+		/obj/item/paint/anycolor
 	)
 
 /datum/outfit/job/clown

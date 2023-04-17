@@ -35,14 +35,17 @@
 	threat = 2
 
 	starting_modifiers = list(/datum/skill_modifier/job/surgery, /datum/skill_modifier/job/affinity/surgery)
-	
-	family_heirlooms = list(
+
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
 		/obj/item/storage/firstaid/ancient/heirloom,
 		/obj/item/scalpel,
-		/obj/item/hemostat,
-		/obj/item/circular_saw,
-		/obj/item/retractor,
-		/obj/item/cautery
+		//obj/item/hemostat,
+		//obj/item/circular_saw,
+		//obj/item/retractor,
+		//obj/item/cautery
+		/obj/item/clothing/mask/surgical,
+		/obj/item/healthanalyzer,
+		/obj/item/clothing/neck/stethoscope
 	)
 
 /datum/outfit/job/cmo

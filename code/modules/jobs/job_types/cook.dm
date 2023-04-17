@@ -22,10 +22,12 @@
 	display_order = JOB_DISPLAY_ORDER_COOK
 	threat = 0.2
 
-	family_heirlooms = list(
-		/obj/item/reagent_containers/food/condiment/saltshaker,
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
+		//obj/item/reagent_containers/food/condiment/saltshaker,
 		/obj/item/kitchen/rollingpin,
-		/obj/item/clothing/head/chefhat
+		/obj/item/clothing/head/chefhat,
+		/obj/item/kitchen/knife/scimitar,
+		/obj/item/clothing/suit/apron/chef
 	)
 
 /datum/outfit/job/cook
