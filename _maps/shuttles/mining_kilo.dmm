@@ -9,9 +9,6 @@
 "c" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/emergency,
-/obj/machinery/light/small{
-	dir = 8
-	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/mining)
 "d" = (
@@ -22,10 +19,8 @@
 /obj/structure/table,
 /obj/item/crowbar/red,
 /obj/item/radio/intercom{
-	pixel_y = 22
-	},
-/obj/machinery/light/small{
-	dir = 4
+	pixel_x = 32;
+	pixel_y = -4
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/mining)
@@ -64,6 +59,9 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/mining)
 "k" = (
@@ -86,10 +84,9 @@
 	width = 7
 	},
 /obj/machinery/atmospherics/pipe/simple/general/hidden{
-	dir = 8;
-	icon_state = "pipe11-2"
+	dir = 8
 	},
-/turf/open/floor/mineral/plastitanium,
+/turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/mining)
 "l" = (
 /obj/effect/spawner/structure/window/shuttle,
@@ -104,7 +101,7 @@
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/mining)
 "n" = (
-/obj/structure/sign/warning/fire,
+/obj/structure/sign/mining,
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/mining)
 "o" = (
@@ -115,8 +112,7 @@
 "p" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/simple/general/hidden{
-	dir = 8;
-	icon_state = "pipe11-2"
+	dir = 8
 	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
@@ -159,15 +155,17 @@
 	dir = 4;
 	pixel_x = -22
 	},
-/obj/machinery/light/small,
 /obj/effect/turf_decal/box,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/mining)
 "r" = (
 /obj/structure/ore_box,
-/obj/machinery/light/small,
 /obj/effect/turf_decal/box,
 /turf/open/floor/mineral/plastitanium,
+/area/shuttle/mining)
+"Q" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall/mineral/titanium,
 /area/shuttle/mining)
 
 (1,1,1) = {"
@@ -180,7 +178,7 @@ a
 a
 "}
 (2,1,1) = {"
-a
+Q
 c
 f
 j
@@ -198,13 +196,13 @@ l
 o
 "}
 (4,1,1) = {"
-a
+n
 e
 i
 p
 g
 r
-n
+Q
 "}
 (5,1,1) = {"
 a

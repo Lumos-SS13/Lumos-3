@@ -96,6 +96,10 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/machinery/door/window/brigdoor/northleft{
+	name = "Stacking Machine Windoor";
+	req_access_txt = "63"
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/labor)
 "l" = (
@@ -104,6 +108,9 @@
 	},
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/labor)
@@ -189,6 +196,7 @@
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/labor)
 "v" = (
+/obj/structure/sign/nanotrasen,
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/labor)
 "w" = (

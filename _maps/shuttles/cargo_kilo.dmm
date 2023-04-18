@@ -139,6 +139,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/supply)
+"s" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/supply)
 "t" = (
 /obj/machinery/door/poddoor{
 	id = "QMLoaddoor2";
@@ -268,7 +272,7 @@ A
 D
 "}
 (4,1,1) = {"
-a
+s
 c
 w
 w
