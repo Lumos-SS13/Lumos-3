@@ -2,9 +2,6 @@
 "b" = (
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/supply)
-"e" = (
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/supply)
 "f" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -14,18 +11,17 @@
 	id = "QMLoaddoor2";
 	name = "supply dock loading door"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/supply)
 "g" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Supply Shuttle Airlock";
 	req_access_txt = "31"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/supply)
 "h" = (
 /obj/machinery/button/door{
-	dir = 2;
 	id = "QMLoaddoor2";
 	name = "Loading Doors";
 	pixel_x = 24;
@@ -40,18 +36,15 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/mineral/titanium/blue,
+/turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/supply)
 "i" = (
 /obj/machinery/door/airlock/titanium{
 	name = "Supply Shuttle Airlock";
 	req_access_txt = "31"
 	},
-/obj/docking_port/mobile/supply{
-	dwidth = 5;
-	width = 12
-	},
-/turf/open/floor/plating,
+/obj/docking_port/mobile/supply,
+/turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/supply)
 "j" = (
 /obj/machinery/conveyor{
@@ -62,10 +55,11 @@
 	id = "QMLoaddoor";
 	name = "supply dock loading door"
 	},
-/turf/open/floor/plating,
+/turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/supply)
 "l" = (
-/turf/closed/wall/mineral/titanium/interior,
+/obj/structure/sign/departments/cargo,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/supply)
 "q" = (
 /obj/structure/window/reinforced{
@@ -93,13 +87,28 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/mineral/titanium/blue,
+/turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/supply)
 "x" = (
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/mineral/titanium/blue,
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/supply)
+"z" = (
+/obj/structure/sign/departments/cargo,
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/supply)
+"I" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/supply)
+"X" = (
+/turf/open/floor/mineral/titanium/yellow,
+/area/shuttle/supply)
+"Y" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/supply)
 
 (1,1,1) = {"
@@ -117,72 +126,72 @@ b
 s
 "}
 (2,1,1) = {"
-b
-e
-e
-e
-e
+I
+X
+X
+X
+X
 x
-e
-e
-e
+X
+X
+X
 l
 b
 t
 "}
 (3,1,1) = {"
 b
-e
-e
-e
-e
-e
-e
-e
-e
-e
+X
+X
+X
+X
+X
+X
+X
+X
+X
 q
 u
 "}
 (4,1,1) = {"
 b
 w
-e
-e
-e
-e
-e
-e
-e
-e
+X
+X
+X
+X
+X
+X
+X
+X
 q
 u
 "}
 (5,1,1) = {"
 b
-e
-e
-e
-e
-e
-e
-e
-e
-e
+X
+X
+X
+X
+X
+X
+X
+X
+X
 q
 u
 "}
 (6,1,1) = {"
-b
-e
-e
-e
-e
+z
+X
+X
+X
+X
 h
-e
-e
-e
-l
+X
+X
+X
+Y
 b
 v
 "}

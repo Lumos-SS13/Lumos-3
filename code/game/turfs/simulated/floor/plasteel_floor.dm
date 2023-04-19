@@ -13,11 +13,10 @@
 		new /obj/effect/temp_visual/glowing_rune(src)
 	ChangeTurf(/turf/open/floor/plating/rust)
 
-/turf/open/floor/plasteel/update_icon()
-	if(!..())
-		return 0
-	if(!broken && !burnt)
-		icon_state = icon_regular_floor
+/turf/open/floor/plasteel/update_icon_state() //LUMOS CHANGE - Tile reskining
+	if(broken || burnt)
+		return
+	icon_state = base_icon_state
 
 
 /turf/open/floor/plasteel/airless
