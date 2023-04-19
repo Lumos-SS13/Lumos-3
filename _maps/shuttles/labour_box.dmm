@@ -43,17 +43,10 @@
 "h" = (
 /obj/machinery/mineral/stacking_unit_console{
 	machinedir = 2;
-	pixel_x = 30;
-	pixel_y = 30
+	pixel_x = 32;
+	pixel_y = 29
 	},
 /turf/open/floor/mineral/plastitanium/red,
-/area/shuttle/labor)
-"i" = (
-/obj/machinery/door/airlock/titanium{
-	name = "Labor Shuttle Airlock";
-	req_access_txt = "2"
-	},
-/turf/open/floor/plating,
 /area/shuttle/labor)
 "j" = (
 /obj/machinery/door/airlock/titanium{
@@ -67,7 +60,10 @@
 	input_dir = 2;
 	output_dir = 1
 	},
-/turf/open/floor/plasteel/dark,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium,
 /area/shuttle/labor)
 "l" = (
 /turf/open/floor/mineral/titanium,
@@ -81,8 +77,10 @@
 "n" = (
 /obj/machinery/mineral/labor_claim_console{
 	machinedir = 1;
-	pixel_x = 30
+	pixel_x = 32;
+	pixel_y = -4
 	},
+/obj/structure/closet/crate,
 /turf/open/floor/mineral/titanium,
 /area/shuttle/labor)
 "o" = (
@@ -96,7 +94,9 @@
 /turf/open/floor/mineral/titanium,
 /area/shuttle/labor)
 "p" = (
-/obj/structure/closet/crate,
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/labor)
 "q" = (
@@ -113,7 +113,7 @@
 	port_direction = 4;
 	width = 9
 	},
-/turf/open/floor/plating,
+/turf/open/floor/mineral/titanium,
 /area/shuttle/labor)
 "r" = (
 /obj/structure/shuttle/engine/heater,
@@ -145,7 +145,7 @@ c
 f
 j
 l
-l
+p
 p
 r
 s
@@ -175,7 +175,7 @@ s
 (5,1,1) = {"
 a
 a
-i
+j
 a
 a
 a

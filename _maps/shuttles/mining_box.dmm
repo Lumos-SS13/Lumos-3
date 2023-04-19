@@ -8,24 +8,28 @@
 /area/shuttle/mining)
 "c" = (
 /obj/structure/table,
-/turf/open/floor/mineral/titanium/blue,
+/obj/item/storage/toolbox/emergency{
+	pixel_y = 2
+	},
+/obj/item/clothing/mask/gas/explorer{
+	pixel_x = -4;
+	pixel_y = 6
+	},
+/turf/open/floor/mineral/titanium,
 /area/shuttle/mining)
 "d" = (
 /obj/machinery/computer/shuttle/mining,
-/turf/open/floor/mineral/titanium/blue,
+/turf/open/floor/mineral/titanium,
 /area/shuttle/mining)
 "e" = (
 /turf/open/floor/mineral/titanium,
 /area/shuttle/mining)
-"f" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/mining)
 "g" = (
 /obj/machinery/light{
 	dir = 8
+	},
+/obj/structure/sign/departments/cargo{
+	pixel_x = -32
 	},
 /turf/open/floor/mineral/titanium,
 /area/shuttle/mining)
@@ -42,11 +46,38 @@
 	port_direction = 4;
 	width = 7
 	},
-/turf/open/floor/plating,
+/turf/open/floor/mineral/titanium,
 /area/shuttle/mining)
 "i" = (
-/obj/structure/closet/crate,
-/turf/open/floor/mineral/titanium/blue,
+/obj/structure/closet/crate/internals,
+/obj/item/clothing/suit/hazardvest,
+/obj/item/clothing/suit/hazardvest,
+/obj/item/clothing/suit/hazardvest,
+/obj/item/tank/internals/emergency_oxygen/double{
+	pixel_x = 3;
+	pixel_y = -3
+	},
+/obj/item/tank/internals/emergency_oxygen/double{
+	pixel_x = 3;
+	pixel_y = -3
+	},
+/obj/item/tank/internals/emergency_oxygen/double{
+	pixel_x = 3;
+	pixel_y = -3
+	},
+/obj/item/clothing/mask/breath{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/item/clothing/mask/breath{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/item/clothing/mask/breath{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/turf/open/floor/mineral/titanium,
 /area/shuttle/mining)
 "j" = (
 /obj/structure/shuttle/engine/heater,
@@ -64,11 +95,37 @@
 /area/shuttle/mining)
 "k" = (
 /obj/structure/ore_box,
-/turf/open/floor/mineral/titanium/blue,
+/turf/open/floor/mineral/titanium,
 /area/shuttle/mining)
 "l" = (
 /obj/structure/shuttle/engine/propulsion/burst,
 /turf/open/floor/plating/airless,
+/area/shuttle/mining)
+"x" = (
+/obj/structure/sign/nanotrasen,
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/mining)
+"B" = (
+/obj/structure/sign/mining,
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/mining)
+"C" = (
+/obj/structure/table,
+/obj/item/radio/intercom{
+	name = "Station Intercom (General)";
+	pixel_x = 32;
+	pixel_y = -4
+	},
+/obj/item/flashlight/flare{
+	pixel_y = 4
+	},
+/obj/item/flashlight/flare{
+	pixel_y = 10
+	},
+/obj/item/flashlight/flare{
+	pixel_y = -2
+	},
+/turf/open/floor/mineral/titanium,
 /area/shuttle/mining)
 "Q" = (
 /obj/structure/chair/comfy/shuttle{
@@ -87,31 +144,31 @@ a
 a
 "}
 (2,1,1) = {"
-a
+x
 c
 e
 g
-f
+Q
 i
-a
+B
 "}
 (3,1,1) = {"
 b
 d
 Q
 e
-f
+Q
 j
 l
 "}
 (4,1,1) = {"
-a
-c
+B
+C
 e
 e
-f
+Q
 k
-a
+x
 "}
 (5,1,1) = {"
 a
