@@ -16,13 +16,13 @@
 	name = "Shuttle Airlock"
 	},
 /obj/structure/fans/tiny,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating/abductor,
 /area/shuttle/abandoned)
 "e" = (
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/mineral/plastitanium,
 /area/shuttle/abandoned)
 "f" = (
-/turf/open/floor/plasteel,
+/turf/open/floor/plating/abductor,
 /area/shuttle/abandoned)
 "g" = (
 /obj/structure/shuttle/engine/propulsion/burst{
@@ -31,15 +31,14 @@
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/abandoned)
 "h" = (
-/obj/structure/window/reinforced{
-	dir = 1;
-	layer = 2.9
-	},
-/obj/structure/window/reinforced{
+/obj/item/gun/medbeam,
+/obj/structure/window/plasma/reinforced{
 	dir = 8
 	},
-/obj/structure/table/glass,
-/obj/item/gun/medbeam,
+/obj/structure/window/plasma/reinforced{
+	dir = 1
+	},
+/obj/structure/table/abductor,
 /turf/open/floor/plating/abductor,
 /area/shuttle/abandoned)
 "i" = (
@@ -47,16 +46,15 @@
 /turf/open/floor/plating/abductor,
 /area/shuttle/abandoned)
 "j" = (
-/obj/structure/window/reinforced{
-	dir = 1;
-	layer = 2.9
-	},
-/obj/structure/window/reinforced{
-	dir = 4
-	},
-/obj/structure/table/glass,
 /obj/machinery/recharger,
 /obj/item/gun/energy/laser/retro,
+/obj/structure/window/plasma/reinforced{
+	dir = 4
+	},
+/obj/structure/window/plasma/reinforced{
+	dir = 1
+	},
+/obj/structure/table/abductor,
 /turf/open/floor/plating/abductor,
 /area/shuttle/abandoned)
 "k" = (
@@ -86,7 +84,6 @@
 	name = "Shuttle Airlock"
 	},
 /obj/docking_port/mobile{
-	dheight = 0;
 	dir = 8;
 	dwidth = 4;
 	height = 9;
@@ -94,21 +91,20 @@
 	launch_status = 0;
 	name = "White Ship";
 	port_direction = 4;
-	preferred_direction = 1;
 	width = 9
 	},
 /obj/structure/fans/tiny,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plating/abductor,
 /area/shuttle/abandoned)
 "p" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced,
-/obj/structure/table/glass,
 /obj/item/tank/internals/oxygen,
 /obj/item/clothing/mask/breath,
 /obj/item/clothing/suit/space/hardsuit/engine/elite,
+/obj/structure/window/plasma/reinforced{
+	dir = 8
+	},
+/obj/structure/window/plasma/reinforced,
+/obj/structure/table/abductor,
 /turf/open/floor/plating/abductor,
 /area/shuttle/abandoned)
 "q" = (
@@ -118,12 +114,12 @@
 /turf/open/floor/plating/abductor,
 /area/shuttle/abandoned)
 "r" = (
-/obj/structure/window/reinforced{
+/obj/item/clothing/shoes/magboots,
+/obj/structure/window/plasma/reinforced{
 	dir = 4
 	},
-/obj/structure/window/reinforced,
-/obj/structure/table/glass,
-/obj/item/clothing/shoes/magboots,
+/obj/structure/window/plasma/reinforced,
+/obj/structure/table/abductor,
 /turf/open/floor/plating/abductor,
 /area/shuttle/abandoned)
 "s" = (
