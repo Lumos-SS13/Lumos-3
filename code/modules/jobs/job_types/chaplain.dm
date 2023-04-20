@@ -19,10 +19,13 @@
 
 	display_order = JOB_DISPLAY_ORDER_CHAPLAIN
 	threat = 0.5
-	
-	family_heirlooms = list(
-		/obj/item/toy/windupToolbox,
-		/obj/item/reagent_containers/food/drinks/bottle/holywater
+
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
+		//obj/item/toy/windupToolbox,
+		/obj/item/reagent_containers/food/drinks/bottle/holywater,
+		/obj/item/reagent_containers/food/snacks/grown/harebell,
+		/obj/item/reagent_containers/food/drinks/trophy,
+		/obj/item/camera/spooky/family
 	)
 
 

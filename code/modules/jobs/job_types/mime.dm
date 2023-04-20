@@ -20,9 +20,11 @@
 	display_order = JOB_DISPLAY_ORDER_MIME
 
 	threat = 0
-	
-	family_heirlooms = list(
-		/obj/item/reagent_containers/food/snacks/baguette
+
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
+		/obj/item/reagent_containers/food/snacks/baguette,
+		/obj/item/toy/dummy,
+		/obj/item/instrument/accordion
 	)
 
 /datum/job/mime/after_spawn(mob/living/carbon/human/H, client/C)

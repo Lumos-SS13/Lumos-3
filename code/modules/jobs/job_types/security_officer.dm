@@ -29,9 +29,12 @@
 	blacklisted_quirks = list(/datum/quirk/mute, /datum/quirk/brainproblems, /datum/quirk/nonviolent, /datum/quirk/paraplegic, /datum/quirk/blindness, /datum/quirk/monophobia)
 	threat = 2
 
-	family_heirlooms = list(
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
 		/obj/item/book/manual/wiki/security_space_law,
-		/obj/item/clothing/head/beret/sec
+		/obj/item/clothing/head/beret/sec,
+		/obj/item/flashlight/seclite,
+		/obj/item/clothing/accessory/armband,
+		/obj/item/clothing/mask/gas/sechailer
 	)
 
 /datum/job/officer/get_access()

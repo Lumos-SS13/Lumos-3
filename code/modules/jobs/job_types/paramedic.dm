@@ -23,9 +23,12 @@
 	threat = 0.5
 
 	starting_modifiers = list(/datum/skill_modifier/job/surgery, /datum/skill_modifier/job/affinity/surgery)
-	
-	family_heirlooms = list(
-		/obj/item/storage/firstaid/ancient/heirloom
+
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
+		/obj/item/storage/firstaid/ancient/heirloom,
+		/obj/item/flashlight/pen,
+		/obj/item/pinpointer/crew,
+		/obj/item/sensor_device
 	)
 
 /datum/outfit/job/paramedic

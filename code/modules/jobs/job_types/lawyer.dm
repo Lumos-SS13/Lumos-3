@@ -22,10 +22,12 @@
 
 	display_order = JOB_DISPLAY_ORDER_LAWYER
 	threat = 0.3
-	
-	family_heirlooms = list(
+
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
 		/obj/item/gavelhammer,
-		/obj/item/book/manual/wiki/security_space_law
+		/obj/item/book/manual/wiki/security_space_law,
+		/obj/item/clothing/accessory/lawyers_badge,
+		/obj/item/folder/red
 	)
 
 /datum/outfit/job/lawyer

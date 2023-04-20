@@ -39,9 +39,11 @@
 
 	blacklisted_quirks = list(/datum/quirk/mute, /datum/quirk/brainproblems, /datum/quirk/prosopagnosia, /datum/quirk/insanity)
 	threat = 2
-	
-	family_heirlooms = list(
-		/obj/item/reagent_containers/food/drinks/trophy/silver_cup
+
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
+		//obj/item/reagent_containers/food/drinks/trophy/silver_cup
+		/obj/item/pinpointer/ian,
+		/obj/item/toy/figure/ian
 	)
 
 

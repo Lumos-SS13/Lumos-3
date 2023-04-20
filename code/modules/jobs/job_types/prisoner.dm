@@ -13,9 +13,11 @@
 	plasma_outfit = /datum/outfit/plasmaman/prisoner
 
 	display_order = JOB_DISPLAY_ORDER_PRISONER
-	
-	family_heirlooms = list(
-		/obj/item/pen/blue
+
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
+		/obj/item/pen/blue,
+		/obj/item/kitchen/knife/shiv/carrot,
+		/obj/item/toy/plush/slaggy
 	)
 
 /datum/job/prisoner/get_latejoin_spawn_point()

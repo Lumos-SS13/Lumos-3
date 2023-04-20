@@ -24,9 +24,13 @@
 
 	display_order = JOB_DISPLAY_ORDER_ROBOTICIST
 	threat = 1
-	
-	family_heirlooms = list(
-		/obj/item/toy/figure/borg
+
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
+		/obj/item/toy/figure/borg,
+		/obj/item/assembly/flash/handheld,
+		/obj/item/clothing/glasses/hud/diagnostic,
+		/obj/item/clothing/glasses/welding,
+		/obj/item/clothing/head/welding
 	)
 
 /datum/outfit/job/roboticist

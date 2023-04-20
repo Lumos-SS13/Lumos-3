@@ -20,10 +20,13 @@
 	display_order = JOB_DISPLAY_ORDER_BOTANIST
 	threat = 1.5 // lol powergame
 
-	family_heirlooms = list(
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
 		/obj/item/cultivator,
 		/obj/item/reagent_containers/glass/bucket, // Watering cans don't exist yet
 		/obj/item/toy/plush/beeplushie,
+		/obj/item/clothing/mask/cigarette/pipe/cobpipe,
+		/obj/item/clothing/gloves/botanic_leather,
+		/obj/item/plant_analyzer
 	)
 
 /datum/outfit/job/botanist

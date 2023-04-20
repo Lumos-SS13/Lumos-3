@@ -20,11 +20,13 @@
 	bounty_types = CIV_JOB_DRINK
 	display_order = JOB_DISPLAY_ORDER_BARTENDER
 	threat = 0.5
-	
-	family_heirlooms = list(
-		/obj/item/reagent_containers/rag,
+
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
+		//obj/item/reagent_containers/rag,
 		/obj/item/clothing/head/that,
-		/obj/item/reagent_containers/food/drinks/shaker
+		/obj/item/reagent_containers/food/drinks/shaker,
+		/obj/item/clothing/mask/cigarette/cigar/havana,
+		/obj/item/clothing/glasses/sunglasses/reagent
 	)
 
 /datum/outfit/job/bartender

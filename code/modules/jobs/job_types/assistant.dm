@@ -20,10 +20,12 @@ Assistant
 	dresscodecompliant = FALSE
 	always_can_respawn_as = TRUE
 	threat = 0.2
-	
-	family_heirlooms = list(
-		/obj/item/storage/toolbox/mechanical/old/heirloom,
-		/obj/item/clothing/gloves/cut/family
+
+	family_heirlooms = list(					//LUMOS CHANGE - Heirloom touch up
+		//obj/item/storage/toolbox/mechanical/old/heirloom,
+		/obj/item/clothing/gloves/cut/family,
+		/obj/item/toy/cards/deck,
+		/obj/item/dice/d20
 	)
 
 /datum/job/assistant/get_access()

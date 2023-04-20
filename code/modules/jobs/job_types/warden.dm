@@ -31,7 +31,10 @@
 	threat = 2
 
 	family_heirlooms = list(
-		/obj/item/book/manual/wiki/security_space_law
+		/obj/item/book/manual/wiki/security_space_law,
+		/obj/item/radio,
+		/obj/item/clothing/ears/earmuffs,
+		/obj/item/clothing/accessory/armband/deputy
 	)
 
 /datum/job/warden/get_access()
