@@ -718,9 +718,7 @@
 /turf/open/floor/mineral/titanium/yellow,
 /area/shuttle/escape)
 "bC" = (
-/obj/structure/closet/crate/medical{
-	name = "medical crate"
-	},
+/obj/structure/closet/crate/medical,
 /obj/item/storage/firstaid/regular,
 /obj/item/storage/firstaid/o2{
 	pixel_x = 3;
@@ -1021,14 +1019,9 @@
 /area/shuttle/escape)
 "ce" = (
 /obj/structure/table,
-/obj/item/scalpel,
-/obj/item/circular_saw{
-	pixel_y = 8
+/obj/item/storage/backpack/duffelbag/med/surgery{
+	pixel_y = 5
 	},
-/obj/item/retractor,
-/obj/item/hemostat,
-/obj/item/surgicaldrill,
-/obj/item/surgical_drapes,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/escape)
 "cj" = (

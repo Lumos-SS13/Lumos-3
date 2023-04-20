@@ -75,8 +75,7 @@
 	},
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/arrows{
-	dir = 1;
-	icon_state = "arrows"
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -112,8 +111,7 @@
 /area/shuttle/arrival)
 "n" = (
 /obj/structure/shuttle/engine/propulsion/left{
-	dir = 8;
-	icon_state = "propulsion_l"
+	dir = 8
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -124,8 +122,7 @@
 /obj/structure/window/shuttle,
 /obj/structure/grille,
 /obj/structure/shuttle/engine/heater{
-	dir = 8;
-	icon_state = "heater"
+	dir = 8
 	},
 /turf/open/floor/plating,
 /area/shuttle/arrival)
@@ -143,8 +140,7 @@
 	},
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/arrows{
-	dir = 1;
-	icon_state = "arrows"
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -157,8 +153,7 @@
 	},
 /obj/effect/turf_decal/tile/blue,
 /obj/effect/turf_decal/arrows{
-	dir = 1;
-	icon_state = "arrows"
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -194,8 +189,7 @@
 /area/shuttle/arrival)
 "u" = (
 /obj/structure/shuttle/engine/propulsion{
-	dir = 8;
-	icon_state = "propulsion"
+	dir = 8
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -237,8 +231,7 @@
 	pixel_x = 28
 	},
 /obj/effect/turf_decal/arrows{
-	dir = 1;
-	icon_state = "arrows"
+	dir = 1
 	},
 /obj/effect/turf_decal/stripes/corner,
 /obj/effect/turf_decal/stripes/corner{
@@ -296,9 +289,7 @@
 /turf/open/floor/mineral/titanium/white,
 /area/shuttle/arrival)
 "D" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 2
-	},
+/obj/effect/turf_decal/stripes/line,
 /obj/machinery/door/airlock/shuttle{
 	name = "Arrival Shuttle Airlock"
 	},
@@ -327,8 +318,7 @@
 /area/shuttle/arrival)
 "G" = (
 /obj/structure/shuttle/engine/propulsion/right{
-	dir = 8;
-	icon_state = "propulsion_r"
+	dir = 8
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -428,6 +418,18 @@
 	},
 /obj/machinery/light,
 /turf/open/floor/mineral/plastitanium,
+/area/shuttle/arrival)
+"V" = (
+/obj/machinery/porta_turret/centcom_shuttle{
+	dir = 5
+	},
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/arrival)
+"Y" = (
+/obj/machinery/porta_turret/centcom_shuttle{
+	dir = 6
+	},
+/turf/closed/wall/mineral/titanium,
 /area/shuttle/arrival)
 
 (1,1,1) = {"
@@ -531,28 +533,28 @@ b
 "}
 (12,1,1) = {"
 c
-e
+c
 t
 E
 M
-e
+c
 c
 "}
 (13,1,1) = {"
 g
-c
+e
 k
 F
 N
-c
+e
 g
 "}
 (14,1,1) = {"
 g
-c
+V
 f
 f
 f
-c
+Y
 g
 "}
