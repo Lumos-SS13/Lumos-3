@@ -183,6 +183,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/item/crowbar,
 /turf/open/floor/plasteel,
 /area/shuttle/arrival)
 "u" = (
@@ -257,7 +258,7 @@
 (1,1,1) = {"
 a
 d
-f
+F
 j
 f
 p
@@ -329,7 +330,7 @@ p
 (5,1,1) = {"
 a
 d
-f
+F
 f
 f
 p
