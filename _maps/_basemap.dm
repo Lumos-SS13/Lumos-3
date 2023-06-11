@@ -8,7 +8,7 @@
 		#include "map_files\debug\runtimestation.dmm"
 		#include "map_files\Deltastation\DeltaStation2.dmm"
 		#include "map_files\MetaStation\MetaStation.dmm"
-		#include "map_files\OmegaStation\OmegaStation.dmm"
+		#include "map_files\OmegaStation\OmegaStation_Lumos.dmm"
 		#include "map_files\PubbyStation\PubbyStation_Lumos.dmm"
 		#include "map_files\BoxStation\BoxStation_Lumos.dmm"
 		#include "map_files\LambdaStation\lambda.dmm"
