@@ -56,3 +56,6 @@ endmap
 
 map kilostation
 endmap
+
+map fuckstation
+endmap
