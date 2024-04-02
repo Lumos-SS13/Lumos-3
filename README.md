@@ -1,6 +1,11 @@
-## Citadel Station 13
-Based and maintained from /tg/station.
+## Lumos-Station13
+Based and maintained from /Citadel/Station/.
 
+**github information**
+https://github.com/Lumos-SS13/Lumos-3
+
+
+**Citadel Station information**
 [![Build Status](https://github.com/Citadel-Station-13/Citadel-Station-13/workflows/CI%20Suite/badge.svg)](https://github.com/Citadel-Station-13/Citadel-Station-13/actions?query=workflow%3A%22CI+Suite%22)
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/Citadel-Station-13/Citadel-Station-13.svg)](http://isitmaintained.com/project/Citadel-Station-13/Citadel-Station-13 "Percentage of issues still open")  
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/Citadel-Station-13/Citadel-Station-13.svg)](http://isitmaintained.com/project/Citadel-Station-13/Citadel-Station-13 "Average time to resolve an issue")
